@@ -670,5 +670,4 @@ def main():
 
 
 if __name__ == '__main__':
->>>>>>> ea7271bb0dd6cc6e23ef1476823578defda08b95
     main()

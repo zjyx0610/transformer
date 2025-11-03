@@ -180,4 +180,3 @@ python train.py --config configs/base.yaml --lr 0.001 --batch_size 32 --epochs 1
 2. 确保有足够的磁盘空间存储模型和日志
 3. 使用相同的随机种子可以确保实验结果可重现
 4. GPU训练会显著加快训练速度，推荐使用
->>>>>>> ea7271bb0dd6cc6e23ef1476823578defda08b95

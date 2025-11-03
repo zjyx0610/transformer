@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+torch>=1.9.0
+torchtext>=0.10.0
+transformers>=4.0.0
+datasets>=1.0.0
+tokenizers>=0.10.0
+numpy>=1.21.0
+matplotlib>=3.3.0
+pyyaml>=5.4.0
+=======
+torch>=1.9.0
+torchtext>=0.10.0
+transformers>=4.0.0
+datasets>=1.0.0
+tokenizers>=0.10.0
+numpy>=1.21.0
+matplotlib>=3.3.0
+pyyaml>=5.4.0
+>>>>>>> ea7271bb0dd6cc6e23ef1476823578defda08b95
+tqdm>=4.60.0

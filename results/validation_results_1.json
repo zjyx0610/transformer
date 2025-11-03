@@ -1,0 +1,32 @@
+{
+  "model_path": "checkpoints/best_model.pth",
+  "config": {
+    "model": {
+      "d_model": 512,
+      "nhead": 1,
+      "num_encoder_layers": 6,
+      "num_decoder_layers": 6,
+      "dim_feedforward": 2048,
+      "dropout": 0.1,
+      "activation": "relu"
+    },
+    "data": {
+      "dataset_name": "iwslt2017",
+      "dataset_config": "iwslt2017-de-en",
+      "max_length": 128,
+      "source_lang": "en",
+      "target_lang": "de"
+    }
+  },
+  "validation": {
+    "loss": 2.163383455749751,
+    "accuracy": 0.5716869512792494,
+    "perplexity": 8.700525757661783
+  },
+  "test": {
+    "loss": 2.148833056371498,
+    "accuracy": 0.5800989982089787,
+    "perplexity": 8.57484619434405
+  },
+  "exact_match_rate": 0.0
+}
